@@ -1,0 +1,56 @@
+{
+    "name": "HWTsaProject",
+    "settings": {
+        "cmd": {
+            "license": "gpl",
+            "cmdVersion": "6.1.2.15",
+            "frameworkVersion": "6.0.1.250"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "urlPrefix": "http://localhost:1841",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "projectHasEnabledWebServer": true,
+        "lockUrlPrefix": true,
+        "installStatus": "Not Installed"
+    },
+    "xdsVersion": "3.5.0",
+    "xdsBuild": 268,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "ext60",
+    "viewOrderMap": {
+        "view": [
+            "2249ef14-e67c-4ded-b73c-c69cc00c8fa5",
+            "6fc17e1c-d5c0-46b8-b413-2b30493216d1",
+            "c50eaf86-78ad-4663-86b7-6e3a42b8cac7"
+        ],
+        "store": [
+            "c013bdd2-00b1-423c-9466-2826e5eb2e9e"
+        ],
+        "controller": [],
+        "model": [
+            "54806812-4b22-410e-9e00-d5694d60c1ad"
+        ],
+        "resource": [
+            "191ccc87-8980-4195-9e38-264b2979a2e5",
+            "a5c5d908-ca1d-4539-8d21-6ea2dae60ad2"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
