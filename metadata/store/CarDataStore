@@ -1,0 +1,49 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "designer|userAlias": "cardatastore",
+        "designer|userClassName": "CarDataStore",
+        "model": "CarData",
+        "storeId": "CarDataStore"
+    },
+    "name": "MyJsonStore",
+    "designerId": "c013bdd2-00b1-423c-9466-2826e5eb2e9e",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "data/cars.json"
+            },
+            "name": "MyAjaxProxy",
+            "designerId": "117dfd59-4927-4ba3-aba2-8a63080d6538",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": [
+                            "data"
+                        ]
+                    },
+                    "name": "MyJsonReader",
+                    "designerId": "e56713b3-a4b6-430e-ac59-c06724f8c03a"
+                }
+            ]
+        }
+    ]
+}

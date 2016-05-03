@@ -1,0 +1,13 @@
+{
+    "type": "Ext.app.ViewModel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "carlistings",
+        "designer|userClassName": "CarListingsViewModel"
+    },
+    "designerId": "6fc17e1c-d5c0-46b8-b413-2b30493216d1"
+}
