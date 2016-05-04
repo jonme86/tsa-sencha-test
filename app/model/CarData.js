@@ -17,7 +17,7 @@ Ext.define('HWTsaProject.model.CarData', {
     extend: 'Ext.data.Model',
 
     requires: [
-        'Ext.data.field.Field'
+        'Ext.data.field.Number'
     ],
 
     fields: [
@@ -28,6 +28,7 @@ Ext.define('HWTsaProject.model.CarData', {
             name: 'model'
         },
         {
+            type: 'float',
             name: 'price'
         },
         {

@@ -1,0 +1,59 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "data": [
+            "[",
+            "    {",
+            "        \"code\": \"es\",",
+            "        \"language\": \"Español\"",
+            "    },",
+            "    {",
+            "        \"code\": \"us\",",
+            "        \"language\": \"English\"",
+            "    }",
+            "]"
+        ],
+        "designer|userClassName": "MyArrayStore",
+        "storeId": "MyArrayStore"
+    },
+    "name": "MyArrayStore",
+    "designerId": "80315548-cf35-4982-8a60-c5482a2c21f8",
+    "configMeta": {
+        "data": {
+            "mock": true
+        }
+    },
+    "cn": [
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "code"
+            },
+            "name": "MyField2",
+            "designerId": "fbb16a05-764b-40f5-8d00-994dd67dd817"
+        },
+        {
+            "type": "Ext.data.field.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "language"
+            },
+            "name": "MyField6",
+            "designerId": "00fa9058-6582-4d38-907e-19c0b13ca6af"
+        }
+    ]
+}

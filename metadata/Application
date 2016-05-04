@@ -11,7 +11,8 @@
         ],
         "name": "HWTsaProject",
         "stores": [
-            "CarDataStore"
+            "CarDataStore",
+            "MyArrayStore"
         ],
         "views": [
             "CarListings"

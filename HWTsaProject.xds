@@ -3,7 +3,7 @@
     "settings": {
         "cmd": {
             "license": "gpl",
-            "cmdVersion": "6.1.2.15",
+            "cmdVersion": "6.1.1.76",
             "frameworkVersion": "6.0.1.250"
         },
         "canvasControls": {
@@ -39,7 +39,8 @@
             "c50eaf86-78ad-4663-86b7-6e3a42b8cac7"
         ],
         "store": [
-            "c013bdd2-00b1-423c-9466-2826e5eb2e9e"
+            "c013bdd2-00b1-423c-9466-2826e5eb2e9e",
+            "80315548-cf35-4982-8a60-c5482a2c21f8"
         ],
         "controller": [],
         "model": [

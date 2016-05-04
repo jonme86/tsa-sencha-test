@@ -22,15 +22,16 @@ Ext.define('HWTsaProject.view.CarListings', {
         'Ext.grid.Panel',
         'Ext.view.Table',
         'Ext.grid.column.Column',
-        'Ext.XTemplate'
+        'Ext.XTemplate',
+        'Ext.form.field.ComboBox'
     ],
 
     viewModel: {
         type: 'carlistings'
     },
     frame: true,
-    height: 619,
-    width: 647,
+    height: 705,
+    width: 654,
     title: 'Car Listing',
     defaultListenerScope: true,
 
@@ -39,6 +40,15 @@ Ext.define('HWTsaProject.view.CarListings', {
         align: 'stretch'
     },
     items: [
+        {
+            xtype: 'combobox',
+            flex: 1,
+            fieldLabel: 'Label',
+            store:'MyArrayStore',
+            displayField: 'language',
+            renderTo: Ext.getBody(),
+            queryMode: 'local'
+        },
         {
             xtype: 'gridpanel',
             flex: 1,
@@ -61,6 +71,7 @@ Ext.define('HWTsaProject.view.CarListings', {
                 },
                 {
                     xtype: 'gridcolumn',
+                    sortable: true,
                     dataIndex: 'price',
                     text: 'Price'
                 },

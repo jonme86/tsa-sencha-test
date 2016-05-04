@@ -12,16 +12,32 @@
         "designer|userAlias": "carlistings",
         "designer|userClassName": "CarListings",
         "frame": true,
-        "height": 619,
+        "height": 705,
         "layout": "vbox",
         "title": "Car Listing",
-        "width": 647
+        "width": 654
     },
     "name": "MyPanel",
     "designerId": "2249ef14-e67c-4ded-b73c-c69cc00c8fa5",
     "viewControllerInstanceId": "c50eaf86-78ad-4663-86b7-6e3a42b8cac7",
     "viewModelInstanceId": "6fc17e1c-d5c0-46b8-b413-2b30493216d1",
     "cn": [
+        {
+            "type": "Ext.form.field.ComboBox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Label",
+                "growMax": 100,
+                "growMin": 20,
+                "layout|flex": 1
+            },
+            "name": "MyComboBox",
+            "designerId": "595328e1-b4b3-4500-95b0-3b12fc079e28"
+        },
         {
             "type": "Ext.grid.Panel",
             "reference": {
@@ -89,7 +105,9 @@
                     "codeClass": null,
                     "userConfig": {
                         "dataIndex": "price",
-                        "text": "Price"
+                        "sortable": true,
+                        "text": "Price",
+                        "width": null
                     },
                     "name": "MyColumn3",
                     "designerId": "e390566c-c3a7-41e0-be4e-1dfe2c1caee9"

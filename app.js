@@ -24,7 +24,8 @@ Ext.application({
         'CarData'
     ],
     stores: [
-        'CarDataStore'
+        'CarDataStore',
+        'MyArrayStore'
     ],
     views: [
         'CarListings'

@@ -38,7 +38,7 @@
             "designerId": "a08c4c00-c7af-4ec4-9e29-b3701295f9f3"
         },
         {
-            "type": "Ext.data.field.Field",
+            "type": "Ext.data.field.Number",
             "reference": {
                 "name": "fields",
                 "type": "array"
@@ -47,7 +47,7 @@
             "userConfig": {
                 "name": "price"
             },
-            "name": "MyField2",
+            "name": "MyNumber",
             "designerId": "2e95a16c-dfe3-4ed6-96b0-61b4a144cee2"
         },
         {
